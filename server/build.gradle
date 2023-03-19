@@ -1,0 +1,19 @@
+plugins {
+    id 'org.springframework.boot' version '2.6.2'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+}
+
+dependencies {
+    implementation project(path: ':blog-api', configuration: "default")
+
+    runtimeOnly 'com.h2database:h2'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.getByName('bootJar') {
+    enabled = true
+}
+
+tasks.getByName('jar') {
+    enabled = false
+}
