@@ -17,7 +17,7 @@
 ### 다운로드 링크
 - https://drive.google.com/uc?export=download&id=1-I5k-RnSzNrNvGiEV-wUUn0ghZCDcBX7
 ```
-java - jar server.jar
+java -jar server.jar
 ```
 
 ---
