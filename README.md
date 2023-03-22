@@ -15,6 +15,7 @@
 - lombok (어노테이션 기반 코드 자동 생성으로 생산성 향상)
 
 ### 다운로드 링크
+- https://drive.google.com/file/d/1-I5k-RnSzNrNvGiEV-wUUn0ghZCDcBX7/view?usp=share_link
 ```
 java - jar server.jar
 ```
